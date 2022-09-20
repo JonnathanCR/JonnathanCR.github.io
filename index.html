@@ -18,13 +18,13 @@
 
 </head>
 <body>
-    <div id="map" style="height:400px"></div>
+    <div id="map" style="height 800px"></div>
 </body>
 </html>
 
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 <script>
-    var map = L.map('map').setView([10.21770,-83.79370], 87);
+    var map = L.map('map').setView([10.21770,-83.79370], 30);
 
 var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
